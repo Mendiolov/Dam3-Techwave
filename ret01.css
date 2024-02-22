@@ -1,0 +1,278 @@
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding-top: 0%;
+    text-align: center;
+    border-style: solid;
+    border-color: orange;
+    border-left: none;
+    border-right: none;
+    font-family: sans-serif;
+    font-weight: bold; 
+}
+
+img{
+    width: 600px;
+}
+
+#logo{
+    width: 80px;
+    text-align: left;
+}
+
+#nombre{
+    width: 200px;
+    text-align: left;
+}
+nav{
+    background-color: #333;
+    padding: 1px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100; 
+}
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+    background-color: rgb(80, 80, 194);
+    font-family: sans-serif;
+    font-weight: 100; 
+}
+
+footer ul{
+    text-align: left;
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+#info{
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 200; 
+}
+
+#logotw{
+    width: 40px;
+    margin-left: 10px;
+}
+
+#logofb{
+    width: 40px;
+    margin-left: 10px;
+}
+
+#logoig{
+    width: 40px;
+    margin-left: 10px;
+}
+
+#logotl{
+    width: 40px;
+    margin-left: 10px;
+}
+
+#info{
+    width: 20%;
+}
+
+#uno{
+    width: 90%;
+    border: 2px solid orange;
+    padding: 5%;
+    margin: 3% auto;
+    overflow: hidden;
+    background-color: rgb(80, 80, 194);
+}
+
+article{
+   margin: 0 auto;
+    color: black;
+    font-size: 150%;
+
+}
+
+img{
+    width: 180px;
+    margin-left: 10px;
+}
+
+#tres,#cinco,#siete,#nueve{
+    width: 90%;
+    border: 2px solid orange;
+    padding: 2%;
+    margin: 3% auto;
+    overflow: hidden;
+    background-color: rgb(80, 80, 194);
+}
+
+#dos,#cuatro,#seis,#ocho,#diez{
+    width: 90%;
+    border: 2px solid rgb(80, 80, 194);
+    padding:2%;
+    margin: 3% auto;
+    overflow: hidden;
+    background-color: orange;
+}
+
+
+div{
+    width: 35%;
+    border: 2px black;
+    padding: 1%;
+    border-color: black;
+    border-style: none;
+    margin: 3% auto;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+#caja2,#caja3,#caja4,#caja5,#caja6,#caja7,#caja8,#caja9,#caja10{
+    width: 80%;
+    display: flex;
+    flex-direction: row; 
+
+}
+
+#xd{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(to right, #007dcc, orange);
+}
+
+h2{
+    text-align: center;
+}
+
+#m:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+
+#rt:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#o:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#cb:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#tj:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#tc:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#au:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#mc:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#cm:hover {
+    transform: scale(1.2); 
+    cursor: pointer; 
+}
+
+#m{
+    border-style: solid;
+    margin-right: 5%;
+    /* Estilo para aumentar el tamaño de la imagen al hacer clic */
+img:hover, img:focus {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+}
+}
+
+#rt{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#o{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#cb{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#tj{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#tc{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#au{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#mc{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+#cm{
+    border-style: solid;
+    margin-right: 5%;
+}
+
+@keyframes fall {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }

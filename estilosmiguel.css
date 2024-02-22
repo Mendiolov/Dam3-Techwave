@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007dcc, orange);
+    border-style: solid;
+}
+h1 {
+    font-size: 36px;
+    color: aqua;
+    background-color: #333;
+    padding: 10px;
+}
+.container {
+    text-align: left;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    width: 30%;
+    background-color: #333;
+    color: lightblue;
+    border-color: chocolate;
+}
+h2 {
+    font-size: 24px;
+    color: white;
+}
+p {
+    font-size: 18px;
+    color: lightblue;
+}
+
+#uno{
+    text-align: center;
+}
+
+#mikel{
+    height:100px ;
+    width:110px ;
+    
+}
+#samu{
+    height:100px ;
+    width:110px ;
+}
+#aitor{
+    height:100px ;
+    width:110px ;
+}
+#miguel{
+    height:100px ;
+    width:110px ;
+}
+#logotw{
+    height:50px ;
+    width:50px ;
+}
+#logofb{
+    height:50px ;
+    width:50px ;
+}
+#logoig{
+    height:50px ;
+    width:50px ;
+}
+#logotl{
+    height:50px ;
+    width:50px ;
+}
+footer{
+text-align: center;
+margin: 0 auto;
+padding: 20px;
+border-style: solid;
+background-color: #007dcc;
+font-family: sans-serif;
+font-weight: 100; 
+}
+
+footer ul{
+text-align: left;
+list-style: none;
+}
+
+footer a{
+text-decoration: none;
+color: black;
+}
+header {
+color: #fff;
+text-align: center;
+border-style: solid;
+border-color: orange;
+border-width: 2px;
+font-family: sans-serif;
+font-weight: bold; 
+
+}
+nav{
+background-color: #333;
+border-style: solid;
+padding: 1%;
+border-color: orange ;
+}
+nav ul {
+list-style: none;
+}
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+}
+#logo{
+width: 80px;
+text-align: left;
+}
+
+#nombre{
+width: 200px;
+text-align: left;
+}
+#andres{
+height:100px ;
+width:110px 
+}
+
+@keyframes rotateImage {
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform: rotate(1060deg);
+}
+}
+
+
+#mikel, #samu, #aitor, #miguel, #andres {
+animation: rotateImage 14s linear infinite;
+}

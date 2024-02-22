@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="webreto1.html"><img id="logo" src="logo-removebg-preview.png" alt=""></a>
+            <a href="webreto1.html"><img id="nombre" src="Captura_de_pantalla_2023-11-06_094200-removebg-preview.png" alt=""></a>
+            <ul>
+                
+                <li><a href="nosotrosmig.html">NOSOTROS</a></li>
+                <li><a href="productosand.html">PRODUCTOS</a></li>
+                <li><a href="Sobre Nosotros.html">INFORMACIÓN</a></li>
+                <li><a href="Juegos.html">JUEGOS</a></li>
+            </ul>
+        </nav>
+        <img id="logomain" src="imagen-removebg-preview.png" alt="Logo empresa">
+    </header>
+    <main>
+        <h1 id="titulo1"><b>¿QUIÉNES SOMOS?</b></h1>
+        <section id="info">
+            <p>Somos una nueva empresa que desea hacerse hueco en el negocio informático, dando soluciones a problemas que otros no hacen.</p>
+
+            <p>Nuestra empresa, TechWave desea dar una segunda vida a equipamientos informáticos. Para ello, recogemos materiales de otras empresas que, por haber cumplido su vida de uso, los sustituyen por unos nuevos.</p>
+                
+            <p>Dentro de nuestra misión, nuestra empresa tiene como objetivos la reutilización y el reciclaje de materiales informáticos, la mejora medioambiental e impulsar el software libre mientras se pueda.</p>
+            <button id="mostrarFormulario">Contacta con TechWave</button>
+                <div id="infob" style="display: none;">
+                    <section id="contacto">
+                        <h2>Contacto</h2>
+                        <p>¡Contáctanos para obtener más información o para discutir cómo podemos ayudarte a implementar soluciones de reciclaje tecnológico en tu empresa! Estamos disponibles para responder a tus preguntas y brindarte asesoramiento.</p>
+                        <form>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </section>
+                </div>
+        </section>
+        <div id="videocont">
+            <video autoplay muted loop width="420"  height="140"> 
+                <source src="videoempresa.mp4" type="video/mp4">
+            </video>
+        </div>
+       
+    </main>
+    <section id="empresas">
+        <h1>EMPRESAS CON LAS QUE TRABAJAMOS</h1>
+        <div id="kiko-slider">
+
+            <ul class="slider">
+                <li id="slide1">
+                    <img id="hp" src="HP_New_Logo_2D.svg.png" />
+                </li>
+                <li id="slide2">
+                    <img id="apple" src="portada-mediamarkt.jpg" />
+                </li>
+                <li id="slide3">
+                    <img id="pccom" src="pccomponentes.png" alt="">
+                </li>
+                <li id="slide4">
+                    <img id="pccom" src="samsung-logo-1993.jpg" alt="">
+                </li>
+            </ul>
+        <div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    let currentSlide = 0;
+                    const slides = document.querySelectorAll('#kiko-slider > ul.slider li');
+                    
+                    function showSlide(n) {
+                        slides.forEach((slide, index) => {
+                            if (index === n) {
+                                slide.classList.add('active');
+                            } else {
+                                slide.classList.remove('active');
+                            }
+                        });
+                    }
+                    
+                    function nextSlide() {
+                        currentSlide = (currentSlide + 1) % slides.length;
+                        showSlide(currentSlide);
+                    }
+                    
+                    setInterval(nextSlide, 5000); // Change slide every 5 seconds
+                });
+            </script>
+    </section>
+    
+        <div id="enunciado">
+            <h1>SERVICIOS QUE OFRECEMOS</h1>
+            En Techwave, nos enorgullece ofrecer una amplia gama de servicios especializados en la reutilización de material informático. Somos conscientes de la importancia de la sostenibilidad y la responsabilidad ambiental en la era digital, y estamos comprometidos a ayudar a las empresas y organizaciones a maximizar el valor de sus activos informáticos mientras minimizan su impacto en el medio ambiente.
+            Nuestros servicios se adaptan a las necesidades específicas de su negocio, y incluyen:
+        </div>
+     <section id="Servicios">       
+        <div id="ejem1">
+            <div id="foto1">
+                <img style=" width: 420px;"
+                 style= "height: 140px;" src="Servicio-de-mantenimiento-informático.jpg" alt=""><br>
+            </div>
+            
+            <div> 
+                <p id="texto1"><b>Reacondicionamiento de Equipos</b> <br> Si tiene equipos informáticos que necesitan una segunda vida, podemos restaurarlos, actualizarlos y ponerlos en funcionamiento nuevamente. Esto le permite ahorrar costos y reducir la necesidad de comprar nuevo hardware.  </p>
+            </div>
+        </div>
+
+        <div id="ejem2">
+            <img style=" width: 420px;"
+            style= "height: 140px;" src="donde-reciclar-ordenadores.jpg" alt="">
+            <div >
+               <p id="texto2"><b>Reciclaje Responsable</b> <br> Nuestro enfoque se basa en la reutilización, no en la eliminación. Recogemos equipos informáticos obsoletos o en desuso, los revisamos y restauramos cuando sea posible, y los redistribuimos de manera eficiente. Esto reduce la generación de residuos electrónicos y promueve la economía circular.</p> 
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h1><b>CONTÁCTANOS</b></h1>
+            <ul>
+            <li><a href=""> <img id="logotw" src="twitter-removebg-preview.png" alt="">  <b>TWITTER</b></a></li>
+            <br>
+            <li><a href=""> <img id="logofb" src="facebook_logo_(2019).png" alt=""> <b>FACEBOOK</b></a></li>
+            <br>
+            <li><a href=""> <img id="logoig" src="instagram-6338392_960_720.png" alt="">  <b>  INSTAGRAM</b></a></li>
+            <br>
+            <li><a href=""> <img id="logotl" src="f207045d96c258fed664305f0ac2c5bd-icono-de-auricular-de-telefono-azul.png" alt=""> <b>TELÉFONO</b></a></li>
+            <br>
+            <br>
+            <br>
+            <li> <span style="color: gray;">&copy; TechWave 2023 todos los derechos reservados</span></li>
+        </ul>
+    </footer>
+    <script src="myscript.js"></script>
+</body>
+</html>

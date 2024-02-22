@@ -1,0 +1,166 @@
+#nombre{
+    width: 200px;
+    text-align: left;
+}
+#logo{
+    width: 80px;
+    text-align: left;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #ffff00, #00ff00);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 0%;
+    text-align: center;
+    border-style: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+nav{
+    background-color: #333;
+    padding: 1px;
+    border-color: orange;
+    border-style: solid;
+   
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nosotros {
+    padding: 40px;
+    background-color: #fff;
+    margin: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: center;
+}
+
+#nosotros h2 {
+    font-size: 36px;
+}
+
+#nosotros img {
+    max-width: 10%;
+    height: auto;
+    transition: transform 0.3s;
+    animation: rotateImage 14s linear infinite;
+    
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav {
+    background-color: #333;
+    padding: 1px;
+    border-bottom: orange;
+    border-style: solid;
+    border-top: orange;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+    background-color: #007dcc;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+footer ul {
+    text-align: left;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#donde-estamos {
+    background-color: #007dcc;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+
+footer #logotw,
+footer #logofb,
+footer #logoig,
+footer #logotl {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+#compromiso-ambiental {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#compromiso-ambiental h2 {
+    color: #006400; 
+}
+
+#trayectoria{
+    text-align: center;
+}
+
+@keyframes rotateImage {
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(1060deg);
+    }
+    }
